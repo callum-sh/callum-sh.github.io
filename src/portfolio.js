@@ -162,29 +162,7 @@ const skills = {
         "• Responsible for the teaching 2x 30+ cohorts of students game design and agile methodologies.",
         "• Certified Scrum Master (CSM).",
       ],
-      softwareSkills: [
-        // {
-        //   skillName: "AWS",
-        //   fontAwesomeClassname: "simple-icons:amazonaws",
-        //   style: {
-        //     color: "#FF9900",
-        //   },
-        // },
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
-      ],
+      softwareSkills: [],
     },
     {
       title: "Hardware",

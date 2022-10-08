@@ -10,7 +10,6 @@
 - Education and Certificates
 - Experience
 - Projects
-- Contact and Resume
 
 # How To Use
 
@@ -42,8 +41,7 @@
 - Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
 - The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
 
-Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
-
+Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.
 
 # Technologies used 🛠️
 
@@ -56,7 +54,7 @@ Now, your website is successfully deployed and you can visit it at `<your-github
 
 # illustrations 🍥
 
-- [UnDraw](https://undraw.co/illustrations)
+- [UnDraw](https://undraw.co/illustnpm cache clean --forcerations)
 
 # References
 
