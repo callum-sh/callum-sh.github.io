@@ -6,7 +6,7 @@
   "static/js/1.c7183437.chunk.js.map": "/static/js/1.c7183437.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+  "static/media/index.css": "/static/media/GoogleSans-Italic.0ecddcde.ttf",
   "static/media/big.png": "/static/media/big.136633a7.png",
   "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
   "static/media/csm.png": "/static/media/csm.8920cbbc.png",
@@ -42,6 +42,6 @@
   "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
   "static/css/main.ba27de88.chunk.css.map": "/static/css/main.ba27de88.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.42c6980671e1e56e1e5fc84876af4946.js": "/precache-manifest.42c6980671e1e56e1e5fc84876af4946.js",
+  "precache-manifest.20f410e3516969e76debef7f8549c7da.js": "/precache-manifest.20f410e3516969e76debef7f8549c7da.js",
   "service-worker.js": "/service-worker.js"
 }
