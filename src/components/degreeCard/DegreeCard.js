@@ -110,7 +110,7 @@ function DegreeCard(props) {
                 </p>
               );
             })}
-            <a
+            {/* <a
               href={degree.website_link}
               target="_blank"
               rel="noopener noreferrer"
@@ -127,7 +127,7 @@ function DegreeCard(props) {
               >
                 Visit Website
               </p>
-            </a>
+            </a> */}
           </div>
         </div>
       </Fade>
