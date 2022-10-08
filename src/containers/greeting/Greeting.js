@@ -37,15 +37,10 @@ export default function Greeting(props) {
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
-                <button
-                  {...styles}
-                  className="button"
-                  onClick={() => {
-                    history.push("/contact");
-                  }}
-                >
-                  Contact Me
-                </button>
+                <br />
+                <a {...styles} className="button" href={greeting.resumeLink}>
+                  See my Resume
+                </a>
               </div>
             </div>
           </div>

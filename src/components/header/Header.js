@@ -97,7 +97,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Education
               </NavLink>
             </li>
             <li>
@@ -122,7 +122,7 @@ function Header(props) {
                 Projects
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 className="cr"
                 to="/contact"
@@ -132,7 +132,7 @@ function Header(props) {
               >
                 Contact and Resume
               </NavLink>
-            </li>
+            </li> */}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
