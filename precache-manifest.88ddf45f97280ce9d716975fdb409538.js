@@ -20,24 +20,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Agustina.21f233e1.woff"
   },
   {
-    "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
-    "url": "/portfolio/static/media/GoogleSans-Italic.0ecddcde.ttf"
+    "revision": "ee6539921d713482b8ccd4d0d23961bb",
+    "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "90773b6158663ab0fe78b32680733677",
     "url": "/portfolio/static/media/GoogleSans-BoldItalic.90773b61.ttf"
   },
   {
-    "revision": "ee6539921d713482b8ccd4d0d23961bb",
-    "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
-  },
-  {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
     "url": "/portfolio/static/media/GoogleSans-Bold.4457817a.ttf"
-  },
-  {
-    "revision": "8fd3737925e83c87d78a13700ccf9a62",
-    "url": "/portfolio/static/media/GoogleSans-MediumItalic.8fd37379.ttf"
   },
   {
     "revision": "8d57e4014b18edef070d285746485115",
@@ -46,6 +38,14 @@ self.__precacheManifest = [
   {
     "revision": "b5c77a6aed75cdad9489effd0d5ea411",
     "url": "/portfolio/static/media/GoogleSans-Regular.b5c77a6a.ttf"
+  },
+  {
+    "revision": "8fd3737925e83c87d78a13700ccf9a62",
+    "url": "/portfolio/static/media/GoogleSans-MediumItalic.8fd37379.ttf"
+  },
+  {
+    "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
+    "url": "/portfolio/static/media/GoogleSans-Italic.0ecddcde.ttf"
   },
   {
     "revision": "136633a7554e853e118f589f5ca09873",
@@ -192,12 +192,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-regular-400.c1a866ec.eot"
   },
   {
-    "revision": "c4f508e7c4f01a9eeba7f08155cde04e",
-    "url": "/portfolio/static/media/fa-regular-400.c4f508e7.woff"
-  },
-  {
     "revision": "f5f2566b93e89391da4db79462b8078b",
     "url": "/portfolio/static/media/fa-regular-400.f5f2566b.woff2"
+  },
+  {
+    "revision": "c4f508e7c4f01a9eeba7f08155cde04e",
+    "url": "/portfolio/static/media/fa-regular-400.c4f508e7.woff"
   },
   {
     "revision": "65b286af947c0d982ca01b40e1fcab38",
@@ -232,7 +232,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.c2801fb4.svg"
   },
   {
-    "revision": "80728426d9e2420fa0cc66b99a3c30c4",
+    "revision": "ac50325b793a4311ba59fb77c0f7e6c8",
     "url": "/portfolio/index.html"
   }
 ];
