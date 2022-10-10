@@ -100,7 +100,7 @@ function Header(props) {
                 Education
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 className="xp"
                 to="/experience"
@@ -110,7 +110,7 @@ function Header(props) {
               >
                 Experience
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 className="projects"

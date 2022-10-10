@@ -27,7 +27,7 @@
   border-top: 5px solid #062e56;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .software-skill-inline-languages {
     margin-right: 10px;
     margin-bottom: 0px;
