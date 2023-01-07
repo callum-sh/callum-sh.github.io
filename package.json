@@ -12,6 +12,7 @@
     "test": "react-scripts --openssl-legacy-provider test"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^3.0.1",
     "baseui": "^9.109.0",
     "bootstrap": "^4.6.0",
     "fbjs": "^3.0.4",
@@ -26,10 +27,12 @@
     "react-ga": "^3.3.0",
     "react-icons": "^4.2.0",
     "react-is": "^17.0.1",
+    "react-popup": "^0.11.0",
     "react-reveal": "^1.2.2",
     "react-rounded-image": "^2.0.11",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^2.1.3",
+    "reactjs-popup": "^2.0.5",
     "styled-components": "^5.2.1",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-react": "^5.2.7"

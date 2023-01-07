@@ -38,7 +38,12 @@ export default function Greeting(props) {
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <br />
-                <a {...styles} className="button" href={greeting.resumeLink}>
+                <a
+                  {...styles}
+                  className="button"
+                  target="_blank"
+                  href={greeting.resumeLink}
+                >
                   See my Resume
                 </a>
               </div>

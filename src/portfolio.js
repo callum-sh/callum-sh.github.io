@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Callum Sharrock",
   subTitle: "Software Developer, Product Owner, Wanna-be Engineer.",
   resumeLink:
-    "https://drive.google.com/file/d/1yqOWaqOSImWb3Miupzl_W9IuUlUqVXtY/view?usp=sharing",
+    "https://drive.google.com/file/d/1WnCDhi6689BPTy3hZdMaXtBwdpE5-yPf/view?usp=sharing",
   mail: "mailto:callum.sharrock@gmail.com",
 };
 
@@ -48,6 +48,13 @@ const skills = {
         {
           skillName: "Django",
           fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
             color: "#3776AB",
           },
@@ -90,13 +97,6 @@ const skills = {
         {
           skillName: "Spring",
           fontAwesomeClassname: "simple-icons:spring",
-          style: {
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
             color: "#3776AB",
           },
@@ -246,29 +246,27 @@ const degrees = {
       descriptions: [
         "• GPA 3.91/4.00.",
         "• Classes of note include Operating Systems, Data Structures and Analysis, Advanced Multivariable Calculus with Proofs, Software Design, Web Programming, Software Engineering, etc.",
-        "• Awards include Dean's List Scholar (2020, 2021, 2022), BC Excellence Scholarship, Provincial Leadership Award, BMO Community Service Award, and the University of Toronto National Book Award.",
+        "• Awards include Dean's List Scholar (2020, 2021), BC Excellence Scholarship, Provincial Leadership Award, BMO Community Service Award, and the University of Toronto National Book Award.",
       ],
     },
     {
       title: "Technology Leadership Initiative (TLI)",
       subtitle: "Toronto, ON",
-      logo_path: "uoft-tli.png",
-      alt_name: "SSGC",
+      logo_path: "tli.png",
+      alt_name: "tli",
       duration: "2021 - present",
       descriptions: [
         "• Selected as one of the 23 students enrolled into the fourth cohort of the Technology Leadership Initiative for students who show creativity, resilience, and grit to work on industry-integrated classroom learning, tailored leadership training for technologists, and industry internships.",
-        "• ",
-        "• ",
       ],
     },
     {
       title: "Digital Media Academy (DMA)",
       subtitle: "Vancouver, BC",
       logo_path: "dma.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      alt_name: "dma",
+      duration: "2017 - 2020",
       descriptions: [
-        "•  Showcased my projects, including an electronic kinematics lab, aquaponics system, and self driving miniature electric car prototype, to the United Nations, who visited 2 schools in Canada as part of the OECD’s Future of Education and Skills 2030 initiative",
+        "• Showcased my projects, including an electronic kinematics lab, aquaponics system, and self driving miniature electric car prototype, to the United Nations, who visited 2 schools in Canada as part of the OECD’s Future of Education and Skills 2030 initiative",
         "• 3D printed 1000+ ‘earsavers’ for Lions Gate Hospital and local care homes during the beginning of the Covid-19 pandemic.",
       ],
     },
@@ -278,11 +276,20 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Certified Scrum Master",
+      title: "Certified Scrum Master (CSM)",
       subtitle: "Scrum Alliance",
       logo_path: "csm.png",
       certificate_link: "https://bcert.me/schbdvbxr",
       alt_name: "csm-certificate",
+      // color_code: "#2AAFED",
+      color_code: "#47A048",
+    },
+    {
+      title: "Certified Scrum Product Owner (CSPO)",
+      subtitle: "Scrum Alliance",
+      logo_path: "cspo.png",
+      certificate_link: "https://bcert.me/sfpihcdir",
+      alt_name: "cspo-certificate",
       // color_code: "#2AAFED",
       color_code: "#47A048",
     },
@@ -422,45 +429,25 @@ const projectsHeader = {
 };
 
 // Contact Page
-const contactPageData = {
-  contactSection: {
-    title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
-    description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
-    avatar_image_path: "blogs_image.svg",
-  },
-};
+const contactPageData = {};
 
 const projects = {
   data: [
     {
       id: "0",
       name: "Agile Tool Suite",
-      url: "",
+      details: "agile",
+      content:
+        "During the beginning of the Covid-19 pandemic, a friend and I built out a simple Competing Values Framework (CVF) tool that helped IncrementOne (a consulting firm) move some of their trainings online. ",
       description:
         "Leading a software delivery team of 3 to create an agile tool suite for 30,000+ users and clients including UBC, RBC, Telus, and the Government of Canada.\n",
-      languages: [
-        // {
-        //   name: "Python",
-        //   iconifyClass: "logos-python",
-        // },
-        // {
-        //   name: "Django",
-        //   iconifyClass: "logos-django",
-        // },
-      ],
+      languages: [],
     },
     {
       id: "4",
-      name: "AI Weld Defect Detection",
-      url: "https://github.com/harikanani/node-web-scrapper",
+      name: "Robotic Welding Robot",
+      details: "scansonic",
+      content: "practice content",
       description:
         "Programmed a data annotation tool in Python for labelling deep learning training models, allowing over 90% accurate defect detection for Berlin Industrial Group's major clients, including BMW, WV, Audi, Porsche, and Lamborghini.",
       languages: [],
@@ -468,7 +455,7 @@ const projects = {
     {
       id: "2",
       name: "Vagus",
-      url: "",
+      details: "",
       description:
         "Using Figma, Python (PyTorch), and React to develop a tool that gains a holistic understanding of oneself and provides quantitative insights as to how to maximize one's routines for a given optimization constraint. ",
       languages: [],
@@ -476,38 +463,39 @@ const projects = {
     {
       id: "3",
       name: "Senso Auto Education",
-      url: "",
+      details: "senso",
       description:
         "Collaborated with 3 students, Senso.ai, and the UofT's Technology Leadership Initiative (TLI) to develop an MVP to educate consumers on their future car purchases in order to minimize the likelihood of defaulting on their loan payments.",
       languages: [],
     },
     {
       id: "3",
-      name: "The Intern Bootcamp",
-      url: "",
+      name: "Up Good Podcast",
+      details: "podcast",
       description:
-        "Co-host, edit, and publish a podcast interviewing industry exports, giving students insight to best prepare for the workplace.",
+        "Co-host a podcast interviewing industry experts, providing students insights on best preparing for the workplace.",
+      languages: [],
+    },
+    {
+      id: "3",
+      name: "Audio Space Accumulator",
+      details: "tlbc",
+      description:
+        "Created an application that allows users to filter through live audio events across multiple streaming platforms for Thought Leadership Branding Club.",
       languages: [],
     },
     {
       id: "1",
       name: "Competition Mars Rover",
-      url: "https://github.com/harikanani/react-twitter-clone",
+      details: "",
       description:
         "Created a virtual testing environment in Gazebo to test the design, code, and functionality as part of the University of Toronto's Robotics for Space Exploration (RSX) club. ",
       languages: [],
     },
     {
-      id: "4",
-      name: "Personal Portfolio",
-      url: "",
-      description: "You're currently on it...",
-      languages: [],
-    },
-    {
       id: "5",
       name: "Reverse Wordle Solver",
-      url: "",
+      details: "",
       description:
         "Coded a C program that takes a completed Wordle answering pattern and returns all possible sequences of words that could have resulted in the given pattern.",
       languages: [],
@@ -515,7 +503,7 @@ const projects = {
     {
       id: "6",
       name: "Digital Media Academy (assorted)",
-      url: "",
+      details: "",
       description:
         "Created an electronic kinematics lab, aquaponics system, and self driving miniature electric car.",
       languages: [],
@@ -523,7 +511,7 @@ const projects = {
     {
       id: "7",
       name: "Manim Projects",
-      url: "",
+      details: "manim",
       description:
         "Used 3Blue1Brown's Python Manim Library to animate mathematical concepts instead of doing actual linear algebra homework.",
       languages: [],
@@ -531,9 +519,16 @@ const projects = {
     {
       id: "8",
       name: "Rasterization Engine",
-      url: "",
+      details: "",
       description:
         "Utilized rasterization algorithms to display 3D models onto a 2D screen using C++.",
+      languages: [],
+    },
+    {
+      id: "4",
+      name: "Personal Portfolio",
+      details: "",
+      description: "You're currently on it...",
       languages: [],
     },
   ],

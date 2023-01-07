@@ -7,6 +7,12 @@ import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
+import UpGood from "../pages/projects/details/UpGood";
+import Scansonic from "../pages/projects/details/Scansonic";
+import TLBC from "../pages/projects/details/tlbc";
+import Senso from "../pages/projects/details/Senso";
+import Manim from "../pages/projects/details/Manim";
+import IncrementOne from "../pages/projects/details/IncrementOne";
 
 export default function Main(propss) {
   if (settings.isSplash) {
@@ -86,6 +92,66 @@ export default function Main(propss) {
                 />
               )}
             />
+            <Route
+              path="/podcast"
+              render={(props) => (
+                <UpGood
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/scansonic"
+              render={(props) => (
+                <Scansonic
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/tlbc"
+              render={(props) => (
+                <TLBC
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/senso"
+              render={(props) => (
+                <Senso
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/agile"
+              render={(props) => (
+                <IncrementOne
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/manim"
+              render={(props) => (
+                <Manim
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
           </Switch>
         </HashRouter>
       </div>
@@ -151,6 +217,56 @@ export default function Main(propss) {
               path="/projects"
               render={(props) => (
                 <Projects
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/podcast"
+              render={(props) => (
+                <UpGood
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/tlbc"
+              render={(props) => (
+                <TLBC
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/senso"
+              render={(props) => (
+                <Senso
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/manim"
+              render={(props) => (
+                <Manim
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/agile"
+              render={(props) => (
+                <IncrementOne
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}

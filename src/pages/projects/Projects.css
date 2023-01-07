@@ -69,6 +69,7 @@
     font-size: 50px;
     margin-top: 80px;
   }
+
   .projects-heading-sub-text {
     font-size: 25px;
   }
@@ -102,4 +103,30 @@
     margin-right: 10px;
     margin-top: 30px;
   }
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  align-items: left;
+  align-content: flex-start;
+  text-align: left;
 }
