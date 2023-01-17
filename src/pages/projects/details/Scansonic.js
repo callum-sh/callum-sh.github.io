@@ -4,11 +4,7 @@ import Footer from "../../../components/footer/Footer";
 
 import "../Projects.css";
 import { style } from "glamor";
-import { Fade } from "react-reveal";
-
-import scansonic1 from "../../../assests/images/scansonic1.png";
-import scansonic2 from "../../../assests/images/scansonic2.png";
-import scansonic3 from "../../../assests/images/scansonic3.png";
+// import { Fade } from "react-reveal";
 
 function Scansonic(props) {
   const theme = props.theme;
@@ -30,17 +26,6 @@ function Scansonic(props) {
             AI Robotic Welding Robot
           </h1>
           <div className="projects-heading-div">
-            <div className="projects-heading-text-div">
-              <iframe
-                src="https://www.youtube.com/embed/tI2O0CRRyto"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen
-                title="video"
-                width="90%"
-                height="100%"
-              />
-            </div>
             <div>
               <p
                 className="projects-header-detail-text subTitle"
@@ -55,9 +40,28 @@ function Scansonic(props) {
                 team, which focuses on the visual processing systems of welding
                 robots. My responsibilities included assisting with the training
                 of a deep learning model to accurately detect weld defects in
-                manufacturing environments. To fulfill these duties, I:
+                manufacturing environments.
               </p>
 
+              <iframe
+                src="https://www.youtube.com/embed/tI2O0CRRyto"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+                title="video"
+                width="90%"
+                height="100%"
+              />
+
+              <br></br>
+              <br></br>
+              <p
+                className="projects-header-detail-text subTitle"
+                align="left"
+                style={{ color: theme.secondaryText }}
+              >
+                To fulfill these duties, I:
+              </p>
               <ul
                 className="projects-header-detail-text subTitle"
                 align="left"

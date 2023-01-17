@@ -6,9 +6,6 @@ import "../Projects.css";
 import { style } from "glamor";
 import { Fade } from "react-reveal";
 
-import senso1 from "../../../assests/images/SensoUJ1.png";
-import senso2 from "../../../assests/images/SensoUJ2.png";
-import techStack from "../../../assests/images/SensoTechStack.png";
 function Senso(props) {
   const theme = props.theme;
 
