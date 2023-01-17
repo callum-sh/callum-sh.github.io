@@ -68,6 +68,10 @@ self.__precacheManifest = [
     "url": "/static/media/GoogleSans-Bold.4457817a.ttf"
   },
   {
+    "revision": "90773b6158663ab0fe78b32680733677",
+    "url": "/static/media/GoogleSans-BoldItalic.90773b61.ttf"
+  },
+  {
     "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
     "url": "/static/media/GoogleSans-Italic.0ecddcde.ttf"
   },
@@ -82,10 +86,6 @@ self.__precacheManifest = [
   {
     "revision": "8fd3737925e83c87d78a13700ccf9a62",
     "url": "/static/media/GoogleSans-MediumItalic.8fd37379.ttf"
-  },
-  {
-    "revision": "90773b6158663ab0fe78b32680733677",
-    "url": "/static/media/GoogleSans-BoldItalic.90773b61.ttf"
   },
   {
     "revision": "b03a97804fdfcdcab74d915270fa3c5d",
@@ -256,12 +256,12 @@ self.__precacheManifest = [
     "url": "/static/media/wrighter.02fdae43.jpg"
   },
   {
-    "revision": "5063b105c7646c8043d58c5289f02cca",
-    "url": "/static/media/fa-brands-400.5063b105.eot"
-  },
-  {
     "revision": "cccc9d29470e879e40eb70249d9a2705",
     "url": "/static/media/fa-brands-400.cccc9d29.woff2"
+  },
+  {
+    "revision": "5063b105c7646c8043d58c5289f02cca",
+    "url": "/static/media/fa-brands-400.5063b105.eot"
   },
   {
     "revision": "c5e0f14f88a828261ba01558ce2bf26f",
@@ -284,24 +284,24 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.c4f508e7.woff"
   },
   {
-    "revision": "65b286af947c0d982ca01b40e1fcab38",
-    "url": "/static/media/fa-regular-400.65b286af.ttf"
-  },
-  {
     "revision": "7b9568e6389b1f8ae0902cd39665fc1e",
     "url": "/static/media/fa-regular-400.7b9568e6.svg"
+  },
+  {
+    "revision": "65b286af947c0d982ca01b40e1fcab38",
+    "url": "/static/media/fa-regular-400.65b286af.ttf"
   },
   {
     "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
     "url": "/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "44d537ab79f921fde5a28b2c1636f397",
-    "url": "/static/media/fa-solid-900.44d537ab.woff2"
-  },
-  {
     "revision": "333bae208dc363746961b234ff6c2500",
     "url": "/static/media/fa-solid-900.333bae20.woff"
+  },
+  {
+    "revision": "44d537ab79f921fde5a28b2c1636f397",
+    "url": "/static/media/fa-solid-900.44d537ab.woff2"
   },
   {
     "revision": "0bff33a5fd7ec390235476b4859747a0",

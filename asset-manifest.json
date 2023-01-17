@@ -16,7 +16,7 @@
   "static/media/tlbc_figma.pdf": "/static/media/tlbc_figma.78516b27.pdf",
   "static/media/tlbc_tech.pdf": "/static/media/tlbc_tech.f834fc0e.pdf",
   "static/media/tlbc_user.pdf": "/static/media/tlbc_user.08ba2300.pdf",
-  "static/media/index.css": "/static/media/GoogleSans-BoldItalic.90773b61.ttf",
+  "static/media/index.css": "/static/media/GoogleSans-MediumItalic.8fd37379.ttf",
   "static/media/Senso1.png": "/static/media/Senso1.b03a9780.png",
   "static/media/Senso2.png": "/static/media/Senso2.0d50cbe9.png",
   "static/media/big.png": "/static/media/big.136633a7.png",
@@ -62,6 +62,6 @@
   "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
   "static/css/main.11503c8b.chunk.css.map": "/static/css/main.11503c8b.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.2808e690fc5398f554b776c5f7109b46.js": "/precache-manifest.2808e690fc5398f554b776c5f7109b46.js",
+  "precache-manifest.7ae25fcc9e3ff2f02383547ce1453e9a.js": "/precache-manifest.7ae25fcc9e3ff2f02383547ce1453e9a.js",
   "service-worker.js": "/service-worker.js"
 }
