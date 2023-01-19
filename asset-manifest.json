@@ -17,7 +17,7 @@
   "static/media/admin-view-cvf.gif": "/static/media/admin-view-cvf.b771c8fc.gif",
   "static/media/cvf-survey-view.gif": "/static/media/cvf-survey-view.321ed099.gif",
   "static/media/pytorch.gif": "/static/media/pytorch.dc243541.gif",
-  "static/media/index.css": "/static/media/GoogleSans-Medium.8d57e401.ttf",
+  "static/media/index.css": "/static/media/GoogleSans-MediumItalic.8fd37379.ttf",
   "static/media/Senso1.png": "/static/media/Senso1.b03a9780.png",
   "static/media/Senso2.png": "/static/media/Senso2.0d50cbe9.png",
   "static/media/big.png": "/static/media/big.136633a7.png",
@@ -63,6 +63,6 @@
   "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
   "static/css/main.74367aea.chunk.css.map": "/static/css/main.74367aea.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4ac77c87067095f35c2732e7f2cb2d2f.js": "/precache-manifest.4ac77c87067095f35c2732e7f2cb2d2f.js",
+  "precache-manifest.27cdd758a44276c07fd33eec4b931a83.js": "/precache-manifest.27cdd758a44276c07fd33eec4b931a83.js",
   "service-worker.js": "/service-worker.js"
 }
