@@ -453,14 +453,6 @@ const projects = {
       languages: [],
     },
     {
-      id: "2",
-      name: "Vagus (wip)",
-      details: "",
-      description:
-        "Using Figma, Python (PyTorch), and React to develop a tool that gains a holistic understanding of oneself and provides quantitative insights as to how to maximize one's routines for a given optimization constraint. ",
-      languages: [],
-    },
-    {
       id: "3",
       name: "Senso Auto Education",
       details: "senso",
@@ -490,6 +482,14 @@ const projects = {
       details: "tlbc",
       description:
         "Created an application that allows users to filter through live audio events across multiple streaming platforms for Thought Leadership Branding Club.",
+      languages: [],
+    },
+    {
+      id: "2",
+      name: "Vagus (wip)",
+      details: "",
+      description:
+        "Using Figma, Python (PyTorch), and React to develop a tool that gains a holistic understanding of oneself and provides quantitative insights as to how to maximize one's routines for a given optimization constraint. ",
       languages: [],
     },
     {
