@@ -40,7 +40,8 @@ function Scansonic(props) {
                 team, which focuses on the visual processing systems of welding
                 robots. My responsibilities included assisting with the training
                 of a deep learning model to accurately detect weld defects in
-                manufacturing environments.
+                manufacturing environments. (timestamp 2:00 onwards in the
+                following video)
               </p>
 
               <iframe
@@ -96,14 +97,12 @@ function Scansonic(props) {
                 <li>Completed laser safety training</li>
                 <li>Engaged in video data annotation for AI training</li>
               </ul>
+              <br></br>
+              <br></br>
             </div>
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </>
   );

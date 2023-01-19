@@ -13,6 +13,7 @@ import TLBC from "../pages/projects/details/tlbc";
 import Senso from "../pages/projects/details/Senso";
 import Manim from "../pages/projects/details/Manim";
 import IncrementOne from "../pages/projects/details/IncrementOne";
+import Xaxxon from "../pages/projects/details/Xaxxon";
 
 export default function Main(propss) {
   if (settings.isSplash) {
@@ -152,6 +153,16 @@ export default function Main(propss) {
                 />
               )}
             />
+            <Route
+              path="/xaxxon"
+              render={(props) => (
+                <Xaxxon
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
           </Switch>
         </HashRouter>
       </div>
@@ -267,6 +278,16 @@ export default function Main(propss) {
               path="/agile"
               render={(props) => (
                 <IncrementOne
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/xaxxon"
+              render={(props) => (
+                <Xaxxon
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}

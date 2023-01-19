@@ -34,118 +34,116 @@ function Senso(props) {
           <Fade bottom duration={2000} distance="40px">
             <h2>Competing Values Framework Survey</h2>
             <div className="projects-heading-div">
-              <div className="projects-heading-text-div">
-                <img
-                  src={cvf_user}
-                  alt="CVF User View"
-                  style={{ width: "100%" }}
-                />
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  <br></br>
-                  <br></br>
-                  Our web application was built using Python and the Django
-                  framework, with a basic front-end designed using HTML and CSS.
-                  It allowed users to take the CVF survey online and receive a
-                  visual representation of their results in the form of a polar
-                  plot (seen above). The application also included a Report page
-                  that allowed administrators to view the results of all users
-                  individually, as well as download the results as a CSV file.
-                  In addition, the application allowed administrators to access
-                  anonymous and non-anonymous averages and comparisons of the
-                  survey results (seen to the right).
-                  <br></br>
-                  <br></br>
-                  Overall, our web application was a simple yet effective tool
-                  that helped IncrementOne's Agile Coaches smoothly transition
-                  to delivering online training during the COVID-19 pandemic and
-                  is still in use until this day. By providing a convenient way
-                  for users to take the CVF survey and receive valuable insights
-                  into their values and priorities, we were able to support
-                  IncrementOne in continuing to deliver top-quality training to
-                  its clients despite the challenges posed by the pandemic.{" "}
-                </p>
-              </div>
-              <div className="projects-heading-text-div">
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  <b>Problem: </b>During the COVID-19 pandemic, many businesses
-                  were forced to adapt to remote work in order to continue
-                  operations. This shift presented unique challenges,
-                  particularly for organizations that relied heavily on
-                  in-person interactions and face-to-face training sessions. One
-                  such company was IncrementOne, a North American boutique
-                  consulting firm that specialized in Agile coaching. In order
-                  to continue delivering effective training to its clients, the
-                  company's Agile Coaches needed to find new ways to translate
-                  their in-person activities to a virtual setting.
-                  <br></br>
-                  <br></br>
-                  <b>Solution: </b>To help facilitate this transition, my friend
-                  and I developed a web application that would allow
-                  IncrementOne's Agile Coaches to deliver the Competing Values
-                  Framework (CVF) survey online. The CVF is a widely-used tool
-                  that helps organizations assess their values and priorities in
-                  order to improve performance and achieve their goals.
-                  Traditionally, the survey was administered in-person and
-                  involved a lot of physical interaction and visualization of
-                  data. By creating a web-based version of the survey, we hoped
-                  to make it easier for IncrementOne's Agile Coaches to continue
-                  delivering valuable training to their clients remotely.
-                  <br></br>
-                  <br></br>
+              <p
+                className="projects-header-detail-text subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                <b>Problem: </b>During the COVID-19 pandemic, many businesses
+                were forced to adapt to remote work in order to continue
+                operations. This shift presented unique challenges, particularly
+                for organizations that relied heavily on in-person interactions
+                and face-to-face training sessions. One such company was
+                IncrementOne, a North American boutique consulting firm that
+                specialized in Agile coaching. In order to continue delivering
+                effective training to its clients, the company's Agile Coaches
+                needed to find new ways to translate their in-person activities
+                to a virtual setting.
+                <br></br>
+                <br></br>
+                <center>
+                  <img
+                    src={cvf_user}
+                    alt="CVF User View"
+                    style={{ width: "80%" }}
+                  />
+                </center>
+                <br></br>
+                <b>Solution: </b>To help facilitate this transition, my friend
+                and I developed a web application that would allow
+                IncrementOne's Agile Coaches to deliver the Competing Values
+                Framework (CVF) survey online. The CVF is a widely-used tool
+                that helps organizations assess their values and priorities in
+                order to improve performance and achieve their goals.
+                Traditionally, the survey was administered in-person and
+                involved a lot of physical interaction and visualization of
+                data. By creating a web-based version of the survey, we hoped to
+                make it easier for IncrementOne's Agile Coaches to continue
+                delivering valuable training to their clients remotely.
+                <br></br>
+                <br></br>
+                <center>
                   <img
                     src={cvf_admin}
                     alt="CVF Admin View"
-                    style={{ width: "100%" }}
+                    style={{ width: "80%", justifyContent: "center" }}
                   />
-                </p>
-              </div>
+                </center>
+                <br></br>
+                <br></br>
+                Our web application was built using Python and the Django
+                framework, with a basic front-end designed using HTML and CSS.
+                It allowed users to take the CVF survey online and receive a
+                visual representation of their results in the form of a polar
+                plot (seen above). The application also included a Report page
+                that allowed administrators to view the results of all users
+                individually, as well as download the results as a CSV file. In
+                addition, the application allowed administrators to access
+                anonymous and non-anonymous averages and comparisons of the
+                survey results (seen to the right).
+                <br></br>
+                <br></br>
+                Overall, our web application was a simple yet effective tool
+                that helped IncrementOne's Agile Coaches smoothly transition to
+                delivering online training during the COVID-19 pandemic and is
+                still in use until this day. By providing a convenient way for
+                users to take the CVF survey and receive valuable insights into
+                their values and priorities, we were able to support
+                IncrementOne in continuing to deliver top-quality training to
+                its clients despite the challenges posed by the pandemic.{" "}
+                <br></br>
+                <br></br>
+              </p>
             </div>
             <h2>Team Benchmark Application</h2>
             <br></br>
             <br></br>
+
             <div className="projects-heading-div">
-              <div className="projects-heading-text-div">
-                <img
-                  src={tbm_overview}
-                  alt="TBM Overview"
-                  style={{ width: "100%" }}
-                />
-              </div>
-              <div className="projects-heading-text-div">
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  The following summer, we developed a tool called the Team
-                  Benchmarking Application that helps assess the maturity of a
-                  team in regards to team formation, behavior, sprint behavior,
-                  and shippable product increments. The application was built
-                  using similar frameworks as the previous tool, but with a few
-                  notable differences. For example, it switched from using a
-                  SQLite database to a Postgresql database and incorporated an
-                  updated graphing library. The biggest change was that this
-                  tool would be made available to the public, rather than being
-                  used internally by IncrementOne. This meant that we had to
-                  make the application more user-friendly and ensure that it was
-                  secure, including adding a full login system. We also had to
-                  make sure the application was scalable, as we needed it to be
-                  able to handle a large number of users (30,000+). Overall,
-                  this was a great learning experience and allowed us to expand
-                  our skillset. These tools have helped IncrementOne improve
-                  discovery and benchmarking by 40-100% for clients such as the
-                  Royal Bank of Canada, Telus, Kohler, and the Government of
-                  Canada, and have helped the company gain brand recognition and
-                  open up new opportunities in the competitive consulting and
-                  training market. It is expected that these tools will create a
-                  new annual revenue stream of $200,000.{" "}
-                </p>
-              </div>
+              <p
+                className="projects-header-detail-text subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                The following summer, we developed a tool called the Team
+                Benchmarking Application that helps assess the maturity of a
+                team in regards to team formation, behavior, sprint behavior,
+                and shippable product increments. The application was built
+                using similar frameworks as the previous tool, but with a few
+                notable differences. For example, it switched from using a
+                SQLite database to a Postgresql database and incorporated an
+                updated graphing library. The biggest change was that this tool
+                would be made available to the public, rather than being used
+                internally by IncrementOne. This meant that we had to make the
+                application more user-friendly and ensure that it was secure,
+                including adding a full login system. We also had to make sure
+                the application was scalable, as we needed it to be able to
+                handle a large number of users (30,000+). Overall, this was a
+                great learning experience and allowed us to expand our skillset.
+                These tools have helped IncrementOne improve discovery and
+                benchmarking by 40-100% for clients such as the Royal Bank of
+                Canada, Telus, Kohler, and the Government of Canada, and have
+                helped the company gain brand recognition and open up new
+                opportunities in the competitive consulting and training market.
+                It is expected that these tools will create a new annual revenue
+                stream of $200,000. <br></br>
+                <br></br>
+                <center>
+                  <img
+                    src={tbm_overview}
+                    alt="TBM Overview"
+                    style={{ width: "80%" }}
+                  />
+                </center>
+              </p>
             </div>
             <div>
               <h2>Affect On Me</h2>

@@ -43,9 +43,13 @@ function UpGood(props) {
                 <a href="https://www.linkedin.com/in/christong7/">Chris Tong</a>
                 , a former intern at companies that I have always been
                 interested in interning for, namely Formlabs and Tesla. He
-                agreed, and we decided to create the UpGood podcast as a way to
-                share what we have learned about industry integration and the
-                process of obtaining an internship with a wider audience.
+                agreed, and we decided to create the{" "}
+                <a href="https://spotifyanchor-web.app.link/e/dhDnc13VFwb">
+                  UpGood podcast
+                </a>{" "}
+                as a way to share what we have learned about industry
+                integration and the process of obtaining an internship with a
+                wider audience.
               </p>
               <p
                 className="projects-header-detail-text subTitle"

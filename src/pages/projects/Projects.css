@@ -53,6 +53,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
+  text-align: left;
 }
 
 .repo-cards-div-main {
@@ -62,6 +63,22 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
+}
+
+.video-container {
+  position: relative;
+  padding-top: 30px;
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 1380px) {

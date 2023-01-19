@@ -32,244 +32,228 @@ function Senso(props) {
           </Fade>
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
-              <div className="projects-heading-text-div">
-                <p
-                  className="projects-header-detail-text subTitle"
-                  align="left"
-                  style={{ color: theme.secondaryText }}
-                >
-                  <b>CUSTOMER JOURNEY</b>
-                  <br /> <br />
-                  Before Senso Education:
-                  <img src={senso1} width="100%" />
-                  <br /> <br />
-                  After Senso Education
-                  <img src={senso2} width="100%" />
-                  <br /> <br />
-                  <b>Technology Stack</b>
-                  <img src={techStack} width="100%" />
-                  <br /> <br />
-                  <a href="https://github.com/TLI-Project">
-                    {" "}
-                    See the code on GitHub
-                  </a>
-                </p>
-              </div>
-              <div>
-                <div>
-                  <p
-                    className="projects-header-detail-text subTitle"
-                    align="left"
-                    style={{ color: theme.secondaryText }}
-                  >
-                    <br /> <br />
-                    Senso Education is a web application powered by a Java
-                    backend, React.js frontend, and a MySQL database that
-                    leverages Senso.ai’s AI algorithm for use in the automotive
-                    education market. It (aims to) follow the decisive, holy
-                    script of the esteemed Uncle Bob on Clean Architecture,
-                    while hopefully making a useful application in the process.
-                    <br /> <br />
-                    <b>PROBLEM STATEMENT</b>
-                    <br /> <br />
-                    A Motivating Example :
-                    <br />
-                    Note: Mercedes cars come in five main classes ranging from
-                    the least expensive to the most expensive, as follows:
-                    A-Class, B-Class, C-Class E-Class (electric), and S-Class.
-                    <br /> <br />
-                    Let's say that you are looking for a new Mercedes SUV. How
-                    do you pick between the C-Class and the S-Class, or maybe
-                    between the S-Class from 2018 versus the new S-Class
-                    released this year? You could buy the S-Class from this year
-                    (which maxes out your budget), or maybe you can pick the
-                    S-Class AMG (sports) version from 2018 with the premium
-                    interior or possibly the maxed-out C-Class AMG with heated
-                    seating, a premium leather steering wheel, and last but
-                    certainty not least, a cup warmer, which all comes in at the
-                    same price as the new S-Class.
-                    <br />
-                    <br />
-                    Do you see the problem? There is no definite best car for
-                    everybody, rather there is a perfect car for you, which may
-                    not be the same as the perfect car for someone else. Buying
-                    a car is about finding out which features matter the most
-                    to, rendering it a complicated decision that takes into
-                    account your budget, ownership length, and many other
-                    factors. Furthermore, the Mercedes-Benz dealership and
-                    producer encounter the other side of this problem. At the
-                    Mercedes dealership, a customer will come in and trade their
-                    old, maxed out S-Class SUV from 2018, and it is now sitting
-                    on their lot. The retailer wants to sell it to a customer,
-                    but the customer is looking at buying a custom, maxed-out
-                    C-Class that would need to be custom-made from the factory
-                    and shipped over, instead of picking the car in the
-                    retailer’s lot. What makes this problem worse is that that
-                    maxed-out C-Class that needs to be custom-made could very
-                    well be a worse fit for them, instead of the S-Class that is
-                    sitting on the retailer’s lot ready to be given away! It is
-                    the retailer’s job to educate the consumer and show them
-                    that “hey, the new custom C-Class might be worse for you
-                    than the 2018 S-Class we have on our lot.” But how is the
-                    retailer supposed to make you, the customer, trust them?
-                    They need to show you quantitative data. They need to
-                    visualize the differences between the possible purchasing
-                    options, and educate the consumer in order for an equitable
-                    conversation or debate to take place.
-                    <br /> <br />
-                    <b>Official Problem Statement</b>
-                    <br /> <br />
-                    Customers have inherent biases when buying cars (e.g.,
-                    always second-hand versus always new). This leads them into
-                    worse purchasing decisions (e.g., buying new when buying
-                    used might work better) and creates problems for retailers
-                    (e.g. ordering a custom car instead of moving a car out of
-                    their lot).
-                    <br /> <br />
-                    <b>OUR SOLUTION</b>
-                    <br /> <br />
-                    Senso Education aims to help Mercedes-Benz retailers in
-                    educating customers in the choice between second-hand models
-                    available in the dealer's lot, versus purchasing a new,
-                    custom car. It does this by bridging the knowledge gap
-                    between the salesperson and the customer, which will
-                    facilitate a more open, trusting relationship between the
-                    dealerships and its clients. We offer graphical breakdowns
-                    tailored to customers’ preferences and financial
-                    information, along with a “How-To” on the process of
-                    evaluating a car’s value (which can subsequently be used by
-                    the retailer in their financing office).
-                    {/* <br /> <br /> */}
-                    {/* We will sell Senso Education to the Mercedes Retailer, as it is a tool to a) sell against, wherein they can walk their customers through the different options and show them a quantitative breakdown of their possible car purchases, and b) use it to create a trusting relationship between the customer and the retailer. This relationship builds the repour for future transactions (e.g. servicing, maintenance, trade-ins, etc.) and turns a one-time sale into a lifetime customer. */}
-                    <br /> <br />
-                    Note that Senso Education is positioned at the beginning of
-                    the upselling process, as soon as the customer steps foot
-                    into the finance office.
-                    {/* <br /> */}
-                    {/* Remark: for a close, more eye-friendly representation go to our MURAL board. */}
-                    <br /> <br />
-                    <b>SPECIFICATIONS AND/OR OVERVIEW</b>
-                    <br /> <br />
-                    Our work in shifting from Phase 1 to Phase 2 has been around
-                    connecting all of our aspects into a working application,
-                    colloquially referred to as “integration hell,” and trust
-                    us, it has been hell. By the end of Phase 1, we had finished
-                    the hosting aspect, a Java backend structure using the
-                    Spring Boot framework in communication with the Senso API, a
-                    graphing algorithm in Vanilla JavaScript, a database that
-                    had no way to connect to our backend, and a React frontend
-                    with static pages. We had a lot of work to do.
-                    <br /> <br />
-                    We are happy to update you that after many late nights and a
-                    non-zero amount of blood, sweat, and tears (and a broken
-                    desk leg) we have everything connected, and a fully
-                    functioning application that portrays our idea and
-                    demonstrates our learning!
-                    <br /> <br />
-                    The frontend went through a complete revamp in accordance
-                    with our pivot. We knew that our homepage was going to be
-                    our user’s first impression, and so we decided to take this
-                    opportunity to work on implementing a sophisticated design
-                    and practice the more aesthetic components of software
-                    design. Furthermore, we felt that this page was pivotal in
-                    ‘onboarding’ the user by letting them know what our
-                    application does and how it works, thus we made sure it did
-                    so effectively in order to do away with any ambiguity. The
-                    rest of the frontend is focused on getting inputs from the
-                    user (their finances and preferred cars) and displaying the
-                    corresponding results (the catalogue of cars and the
-                    subsequent graphical representations). Our big development
-                    between Phase 1 and Phase 2 was updating requests between
-                    the frontend and backend, and displaying the received
-                    information in an intuitive manner that effectively gets the
-                    information across (we think the ‘Catalogue’ page and
-                    ‘Details’ subpages is an exceptional example of this).
-                    <br /> <br />
-                    Our graphing algorithm has undergone a lot of changes. We
-                    have ported our initial work in matplotlib (Python) into a
-                    JS library called Chart.js. We are now generating two graphs
-                    with the user-inputted data, representing the depreciation
-                    of each car (as per the feedback from Mike and Jonathan),
-                    along with a graphical representation of the amortization
-                    data from the Senso API. We wrapped up our graphing section
-                    by incorporating a “How-to-Read” section and making our
-                    Vanilla JS graph run as a part of our React frontend, which
-                    took more time than expected.
-                    <br /> <br />
-                    As for our database and dataset, we have made a significant
-                    amount of progress. An eye-opening experience for our group
-                    was when Jonathan asked, “can I see a database query” and no
-                    one was able to give a real answer, so we decided to fix
-                    this. We have researched and created a whole mock dataset of
-                    twenty cars with multiple features (interior, engine,
-                    performance, image, etc.) and tailored depreciation for each
-                    car. Moreover, we made our database automatically read and
-                    log each car as an entry and create the corresponding
-                    entities (Car and Features).
-                    <br /> <br />
-                    All these changes have been implemented in one way or
-                    another into the backend (along with the Senso API
-                    information), where we decided what information to send,
-                    where to send it, and how the information should be
-                    formatted. Surprisingly, the amount of code in the backend
-                    shrunk once we started to implement Clean Architecture and
-                    the SOLID principles. Our working theory is that this is due
-                    to several design decisions that we have made (more on that
-                    later), and because Uncle Bob’s software design cuts down a
-                    considerable amount of duplicate code.
-                    <br /> <br />
-                    <b>TECH STACK</b>
-                    <br /> <br />
-                    We are going to be handling the frontend of Senso Education
-                    through React, using HTML, SCSS, and JS. We decided on using
-                    React.js due to its remarkable popularity (we felt that this
-                    would be a good opportunity to learn a widely used library)
-                    and the flexibility involved in having various reusable
-                    components with states. We thought that React props would be
-                    useful for figuring out the flow of data, and the smooth
-                    learning curve made it an obvious choice for the frontend of
-                    our tech stack. We also decided to use SCSS due to its
-                    nesting rules, which would greatly organize the readability
-                    of our stylesheets and reduce the number of lines in our
-                    code.
-                    <br /> <br />
-                    The backend of Senso Education will be built in Java, using
-                    the Spring Boot framework to allow for easier integration
-                    between all our different components. This was discovered
-                    out of necessity and talking with other groups. We spent a
-                    while trying to integrate the backend to the frontend
-                    without a framework like Spring, yet we had no success. We
-                    heard lots of good words about Spring, and since the
-                    framework was also extremely well-documented, we settled on
-                    using it.
-                    <br /> <br />
-                    We are using MySQL, since our application requires some of
-                    SQL's relationship features. We specifically chose MySQL
-                    because after some research, we found that this was one of
-                    the most popular relational database systems, and would
-                    therefore be applicable to many future projects that we
-                    might be working on.
-                    <br /> <br />
-                    We deployed the Frontend on AWS Amplify. We felt that
-                    Amplify was a very approachable platform to host our
-                    frontend because of its ease of use (with one click, it
-                    would automatically be updated through the GitHub
-                    repository). We choose AWS Elastic Beanstalk to host our
-                    backend because the abstraction of being able to use
-                    multiple EC2's was interesting, and we felt that it might be
-                    useful for future work (though we did not use it for this
-                    project). Furthermore, it had an easy server configuration,
-                    and was it free unlike many of the alternatives that we
-                    researched (e.g., Opalstack, Firebase (functions)). Finally,
-                    we are hosting our database on AWS RDS. At this point, we
-                    had become very familiar with the AWS hosting platforms, and
-                    RDS allowed us to use our database of choice (MySQL) all the
-                    while being free and easy to set up.
-                    <br /> <br />
-                  </p>
-                </div>
+              <p
+                className="projects-header-detail-text subTitle"
+                align="left"
+                style={{ color: theme.secondaryText }}
+              >
+                <br /> <br />
+                Senso Education is a web application powered by a Java backend,
+                React.js frontend, and a MySQL database that leverages
+                Senso.ai’s AI algorithm for use in the automotive education
+                market. It (aims to) follow the decisive, holy script of the
+                esteemed Uncle Bob on Clean Architecture, while hopefully making
+                a useful application in the process.
+                <br /> <br />
+                <b>PROBLEM STATEMENT</b>
+                <br /> <br />
+                A Motivating Example :
+                <br />
+                Note: Mercedes cars come in five main classes ranging from the
+                least expensive to the most expensive, as follows: A-Class,
+                B-Class, C-Class E-Class (electric), and S-Class.
+                <br /> <br />
+                Let's say that you are looking for a new Mercedes SUV. How do
+                you pick between the C-Class and the S-Class, or maybe between
+                the S-Class from 2018 versus the new S-Class released this year?
+                You could buy the S-Class from this year (which maxes out your
+                budget), or maybe you can pick the S-Class AMG (sports) version
+                from 2018 with the premium interior or possibly the maxed-out
+                C-Class AMG with heated seating, a premium leather steering
+                wheel, and last but certainty not least, a cup warmer, which all
+                comes in at the same price as the new S-Class.
+                <br />
+                <br />
+                Do you see the problem? There is no definite best car for
+                everybody, rather there is a perfect car for you, which may not
+                be the same as the perfect car for someone else. Buying a car is
+                about finding out which features matter the most to, rendering
+                it a complicated decision that takes into account your budget,
+                ownership length, and many other factors. Furthermore, the
+                Mercedes-Benz dealership and producer encounter the other side
+                of this problem. At the Mercedes dealership, a customer will
+                come in and trade their old, maxed out S-Class SUV from 2018,
+                and it is now sitting on their lot. The retailer wants to sell
+                it to a customer, but the customer is looking at buying a
+                custom, maxed-out C-Class that would need to be custom-made from
+                the factory and shipped over, instead of picking the car in the
+                retailer’s lot. What makes this problem worse is that that
+                maxed-out C-Class that needs to be custom-made could very well
+                be a worse fit for them, instead of the S-Class that is sitting
+                on the retailer’s lot ready to be given away! It is the
+                retailer’s job to educate the consumer and show them that “hey,
+                the new custom C-Class might be worse for you than the 2018
+                S-Class we have on our lot.” But how is the retailer supposed to
+                make you, the customer, trust them? They need to show you
+                quantitative data. They need to visualize the differences
+                between the possible purchasing options, and educate the
+                consumer in order for an equitable conversation or debate to
+                take place.
+                <br /> <br />
+                <b>OFFICIAL PROBLEM STATEMENT</b>
+                <br /> <br />
+                Customers have inherent biases when buying cars (e.g., always
+                second-hand versus always new). This leads them into worse
+                purchasing decisions (e.g., buying new when buying used might
+                work better) and creates problems for retailers (e.g. ordering a
+                custom car instead of moving a car out of their lot).
+                <br />
+                <br />
+                <b>CUSTOMER JOURNEY</b>
+                <br /> <br />
+                Before Senso Education:
+                <center>
+                  <img src={senso1} width="80%" />
+                </center>
+                <br></br>
+                <br></br>
+                <b>OUR SOLUTION</b>
+                <br /> <br />
+                Senso Education aims to help Mercedes-Benz retailers in
+                educating customers in the choice between second-hand models
+                available in the dealer's lot, versus purchasing a new, custom
+                car. It does this by bridging the knowledge gap between the
+                salesperson and the customer, which will facilitate a more open,
+                trusting relationship between the dealerships and its clients.
+                We offer graphical breakdowns tailored to customers’ preferences
+                and financial information, along with a “How-To” on the process
+                of evaluating a car’s value (which can subsequently be used by
+                the retailer in their financing office). After Senso Education
+                <center>
+                  <img src={senso2} width="80%" />
+                </center>
+                <br /> <br />
+                {/* <br /> <br /> */}
+                {/* We will sell Senso Education to the Mercedes Retailer, as it is a tool to a) sell against, wherein they can walk their customers through the different options and show them a quantitative breakdown of their possible car purchases, and b) use it to create a trusting relationship between the customer and the retailer. This relationship builds the repour for future transactions (e.g. servicing, maintenance, trade-ins, etc.) and turns a one-time sale into a lifetime customer. */}
+                <br /> <br />
+                Note that Senso Education is positioned at the beginning of the
+                upselling process, as soon as the customer steps foot into the
+                finance office.
+                {/* <br /> */}
+                {/* Remark: for a close, more eye-friendly representation go to our MURAL board. */}
+                <br /> <br />
+                <b>SPECIFICATIONS AND/OR OVERVIEW</b>
+                <br /> <br />
+                Our work in shifting from Phase 1 to Phase 2 has been around
+                connecting all of our aspects into a working application,
+                colloquially referred to as “integration hell,” and trust us, it
+                has been hell. By the end of Phase 1, we had finished the
+                hosting aspect, a Java backend structure using the Spring Boot
+                framework in communication with the Senso API, a graphing
+                algorithm in Vanilla JavaScript, a database that had no way to
+                connect to our backend, and a React frontend with static pages.
+                We had a lot of work to do.
+                <br /> <br />
+                We are happy to update you that after many late nights and a
+                non-zero amount of blood, sweat, and tears (and a broken desk
+                leg) we have everything connected, and a fully functioning
+                application that portrays our idea and demonstrates our
+                learning!
+                <br /> <br />
+                The frontend went through a complete revamp in accordance with
+                our pivot. We knew that our homepage was going to be our user’s
+                first impression, and so we decided to take this opportunity to
+                work on implementing a sophisticated design and practice the
+                more aesthetic components of software design. Furthermore, we
+                felt that this page was pivotal in ‘onboarding’ the user by
+                letting them know what our application does and how it works,
+                thus we made sure it did so effectively in order to do away with
+                any ambiguity. The rest of the frontend is focused on getting
+                inputs from the user (their finances and preferred cars) and
+                displaying the corresponding results (the catalogue of cars and
+                the subsequent graphical representations). Our big development
+                between Phase 1 and Phase 2 was updating requests between the
+                frontend and backend, and displaying the received information in
+                an intuitive manner that effectively gets the information across
+                (we think the ‘Catalogue’ page and ‘Details’ subpages is an
+                exceptional example of this).
+                <br /> <br />
+                Our graphing algorithm has undergone a lot of changes. We have
+                ported our initial work in matplotlib (Python) into a JS library
+                called Chart.js. We are now generating two graphs with the
+                user-inputted data, representing the depreciation of each car
+                (as per the feedback from Mike and Jonathan), along with a
+                graphical representation of the amortization data from the Senso
+                API. We wrapped up our graphing section by incorporating a
+                “How-to-Read” section and making our Vanilla JS graph run as a
+                part of our React frontend, which took more time than expected.
+                <br /> <br />
+                As for our database and dataset, we have made a significant
+                amount of progress. An eye-opening experience for our group was
+                when Jonathan asked, “can I see a database query” and no one was
+                able to give a real answer, so we decided to fix this. We have
+                researched and created a whole mock dataset of twenty cars with
+                multiple features (interior, engine, performance, image, etc.)
+                and tailored depreciation for each car. Moreover, we made our
+                database automatically read and log each car as an entry and
+                create the corresponding entities (Car and Features).
+                <br /> <br />
+                All these changes have been implemented in one way or another
+                into the backend (along with the Senso API information), where
+                we decided what information to send, where to send it, and how
+                the information should be formatted. Surprisingly, the amount of
+                code in the backend shrunk once we started to implement Clean
+                Architecture and the SOLID principles. Our working theory is
+                that this is due to several design decisions that we have made
+                (more on that later), and because Uncle Bob’s software design
+                cuts down a considerable amount of duplicate code.
+                <br /> <br />
+                <b>TECH STACK</b>
+                <br></br>
+                <center>
+                  <img src={techStack} width="80%" />
+                </center>
+                <br /> <br />
+                <a href="https://github.com/TLI-Project">
+                  {" "}
+                  See the code on GitHub
+                </a>
+                <br /> <br />
+                We are going to be handling the frontend of Senso Education
+                through React, using HTML, SCSS, and JS. We decided on using
+                React.js due to its remarkable popularity (we felt that this
+                would be a good opportunity to learn a widely used library) and
+                the flexibility involved in having various reusable components
+                with states. We thought that React props would be useful for
+                figuring out the flow of data, and the smooth learning curve
+                made it an obvious choice for the frontend of our tech stack. We
+                also decided to use SCSS due to its nesting rules, which would
+                greatly organize the readability of our stylesheets and reduce
+                the number of lines in our code.
+                <br /> <br />
+                The backend of Senso Education will be built in Java, using the
+                Spring Boot framework to allow for easier integration between
+                all our different components. This was discovered out of
+                necessity and talking with other groups. We spent a while trying
+                to integrate the backend to the frontend without a framework
+                like Spring, yet we had no success. We heard lots of good words
+                about Spring, and since the framework was also extremely
+                well-documented, we settled on using it.
+                <br /> <br />
+                We are using MySQL, since our application requires some of SQL's
+                relationship features. We specifically chose MySQL because after
+                some research, we found that this was one of the most popular
+                relational database systems, and would therefore be applicable
+                to many future projects that we might be working on.
+                <br /> <br />
+                We deployed the Frontend on AWS Amplify. We felt that Amplify
+                was a very approachable platform to host our frontend because of
+                its ease of use (with one click, it would automatically be
+                updated through the GitHub repository). We choose AWS Elastic
+                Beanstalk to host our backend because the abstraction of being
+                able to use multiple EC2's was interesting, and we felt that it
+                might be useful for future work (though we did not use it for
+                this project). Furthermore, it had an easy server configuration,
+                and was it free unlike many of the alternatives that we
+                researched (e.g., Opalstack, Firebase (functions)). Finally, we
+                are hosting our database on AWS RDS. At this point, we had
+                become very familiar with the AWS hosting platforms, and RDS
+                allowed us to use our database of choice (MySQL) all the while
+                being free and easy to set up.
+                <br /> <br />
+              </p>
 
-                {/* <b>MAJOR DESIGN DECISIONS</b>
+              {/* <b>MAJOR DESIGN DECISIONS</b>
                                     <br /> <br />
                                     <b>PIVOTING</b>
                                     <br /> <br />
@@ -304,7 +288,7 @@ function Senso(props) {
                                     <b>CLASS DIAGRAM</b>
                                     <br /> <br /> */}
 
-                {/* <b>SOLID DESIGN PRINCIPLES</b>
+              {/* <b>SOLID DESIGN PRINCIPLES</b>
                                     <br /> <br />
                                     <b>SINGLE RESPONSIBILITY PRINCIPLE (SRP)</b>
                                     <br /> <br />
@@ -325,7 +309,7 @@ function Senso(props) {
                                     <br /> <br />
                                     Big rework on this department. We started with having our whole backend adhere to the reverse of the dependency inversion principle (we thought it would be fun and totally didn’t think DIP went from inside out instead of outside in). We have gone through the code and checked that each layer is importing only the classes that it is allowed to (helped by our packaging strategy). This was made relatively easy since we only have two gateways to the database and so we only had to implement Dependency Injection once as we can see with our CarAccessInterface.
                                     <br /> <br /> */}
-                {/* DESIGN PATTERNS
+              {/* DESIGN PATTERNS
                                     ADAPTERS
                                     GraphingDataAdapter
 
@@ -389,7 +373,6 @@ function Senso(props) {
                                     We would market Senso Education to Mercedes-Benz car retailers, as the web application is intended to be used by such retailers at the financial office, along with a prospective client who is looking to buy a Mercedes SUV. This is a very specific market, as the scope and theme of our project has already been narrowed down quite a bit for us (since all TLI projects are related to the automotive industry, and must utilize the Senso API in some way). We would market our application to this category because Senso Education provides a wide array of benefits to all stakeholders involved (it is beneficial for not just Mercedes-Benz car retailers, but to car manufacturers and prospective customers as well), yet it makes the most sense if our app is poised for use at the retailer’s office. This is because we intend for the app to educate the customer on their possible options, as well as facilitate a lasting relationship between the client and the retailer based on open information and transparency. In the future, we hope to expand the use of our app to other brands and car dealerships as well, and not restrict it to the specific category of Mercedes-Benz retailers.
                                     UNLIKELY TARGET MARKET
                                     Our program is less likely to be used by anyone who is not a Mercedes-Benz dealership employee, who is helping a prospective customer. Senso Education is tailored to be used by retailers who want to help clients discover the SUV that is the most suited towards their situation and needs, and the customer themself is unlikely to use the application on their own (especially if the retailer has already walked them through the process at the financial office). More specifically, some examples of target demographics that are unlikely to use Senso Education include: people who do not have a steady stream of income, young people or those who do not work full-time (e.g., students or those under the age of 18), people who do not have families (many Mercedes-Benz SUVs can seat up to seven people), people with household incomes up to a certain point (Mercedes-Benz SUVs are among the more expensive cars in the market), and more. Additionally, the use of Senso Education is currently intended to be based in North America, meaning that any population outside of this content would constitute an unlikely target market. */}
-              </div>
             </div>
           </Fade>
         </div>

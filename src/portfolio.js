@@ -454,7 +454,7 @@ const projects = {
     },
     {
       id: "2",
-      name: "Vagus",
+      name: "Vagus (wip)",
       details: "",
       description:
         "Using Figma, Python (PyTorch), and React to develop a tool that gains a holistic understanding of oneself and provides quantitative insights as to how to maximize one's routines for a given optimization constraint. ",
@@ -478,6 +478,14 @@ const projects = {
     },
     {
       id: "3",
+      name: "Autocrawler Robot",
+      details: "xaxxon",
+      description:
+        "My official introduction to AI, robotics, and manufacturing using PyTorch, ROS, 3D printers, CNC machines, and more.",
+      languages: [],
+    },
+    {
+      id: "9",
       name: "Audio Space Accumulator",
       details: "tlbc",
       description:
@@ -486,7 +494,7 @@ const projects = {
     },
     {
       id: "1",
-      name: "Competition Mars Rover",
+      name: "Competition Mars Rover (wip)",
       details: "",
       description:
         "Created a virtual testing environment in Gazebo to test the design, code, and functionality as part of the University of Toronto's Robotics for Space Exploration (RSX) club. ",
@@ -494,7 +502,7 @@ const projects = {
     },
     {
       id: "5",
-      name: "Reverse Wordle Solver",
+      name: "Reverse Wordle Solver (wip)",
       details: "",
       description:
         "Coded a C program that takes a completed Wordle answering pattern and returns all possible sequences of words that could have resulted in the given pattern.",
@@ -502,7 +510,7 @@ const projects = {
     },
     {
       id: "6",
-      name: "Digital Media Academy (assorted)",
+      name: "Digital Media Academy (assorted) (wip)",
       details: "",
       description:
         "Created an electronic kinematics lab, aquaponics system, and self driving miniature electric car.",
@@ -510,7 +518,7 @@ const projects = {
     },
     {
       id: "7",
-      name: "Manim Projects",
+      name: "Manim Projects (wip)",
       details: "manim",
       description:
         "Used 3Blue1Brown's Python Manim Library to animate mathematical concepts instead of doing actual linear algebra homework.",
@@ -518,7 +526,7 @@ const projects = {
     },
     {
       id: "8",
-      name: "Rasterization Engine",
+      name: "Rasterization Engine (wip)",
       details: "",
       description:
         "Utilized rasterization algorithms to display 3D models onto a 2D screen using C++.",
