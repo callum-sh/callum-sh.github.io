@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Callum Sharrock",
   subTitle: "Software Developer, Product Owner, Wanna-be Engineer.",
   resumeLink:
-    "https://drive.google.com/file/d/1WnCDhi6689BPTy3hZdMaXtBwdpE5-yPf/view?usp=sharing",
+    "https://drive.google.com/file/d/1QMlzaXGJOmTcOFm0zZ91Je2iX-0uqQL2/view?usp=share_link",
   mail: "mailto:callum.sharrock@gmail.com",
 };
 
@@ -33,9 +33,9 @@ const skills = {
       title: "",
       fileName: "FullStackImg",
       skills: [
-        "• Delivered commercial applications using Python, Java, and C.",
-        "• Developed AI defect detection with over 90% accuracy used by major automotive manufacturers inclduing BMW, Audi, Porsche, VW, Lamborghini, and more.",
-        "• Created an agile tool suite suited for 30,000+ users and clients including the University of British Columbia, the Royal Bank of Canada, Telus, and the Government of Canada.",
+        "• Delivered commercial applications using Python, Java, C++, and C.",
+        "• Led development of 4 developers to create a commercial web application suited for +30,000 users and projected to generate $200k in revenue.",
+        "• Worked on production code used on manufacturing floors of major automotive manufacturers including Porsche, BMW, and Audi.",
       ],
       softwareSkills: [
         {
@@ -245,8 +245,8 @@ const degrees = {
       duration: "2020 - 2024",
       descriptions: [
         "• GPA 3.91/4.00.",
-        "• Classes of note include Operating Systems, Data Structures and Analysis, Advanced Multivariable Calculus with Proofs, Software Design, Web Programming, Software Engineering, etc.",
-        "• Awards include Dean's List Scholar (2020, 2021), BC Excellence Scholarship, Provincial Leadership Award, BMO Community Service Award, and the University of Toronto National Book Award.",
+        "• Classes of note include Operating Systems, Data Structures and Analysis, Advanced Multivariable Calculus with Proofs, Software Design, Web Programming, Software Engineering, Machine Learning, and Artificial Intelligence.",
+        "• Awards include Dean's List Scholar x2, BC Excellence Scholarship, Provincial Leadership Award, BMO Community Service Award, and the University of Toronto National Book Award.",
       ],
     },
     {
@@ -264,9 +264,13 @@ const degrees = {
       subtitle: "Vancouver, BC",
       logo_path: "dma.png",
       alt_name: "dma",
-      duration: "2017 - 2020",
+      duration: "2017 - present",
       descriptions: [
         "• Showcased my projects, including an electronic kinematics lab, aquaponics system, and self driving miniature electric car prototype, to the United Nations, who visited 2 schools in Canada as part of the OECD’s Future of Education and Skills 2030 initiative",
+        "• Built a low cost kinematics lab alternative using Arduino, C++, and 3D printing to save the physics department )180/unit.",
+        "• Introduced agile delivery methods into students workflow, helping to structure the work routines of over 500 students.",
+        "• Work in a mentorship capacity with computer science and engineering students to help them develop their skills and projects.",
+        "• Taught Unreal Engine and C++ to 50 students as part of a summer bootcamp at Capilano University.",
         "• 3D printed 1000+ ‘earsavers’ for Lions Gate Hospital and local care homes during the beginning of the Covid-19 pandemic.",
       ],
     },
