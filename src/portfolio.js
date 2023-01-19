@@ -516,14 +516,14 @@ const projects = {
         "Created an electronic kinematics lab, aquaponics system, and self driving miniature electric car.",
       languages: [],
     },
-    {
-      id: "7",
-      name: "Manim Projects (wip)",
-      details: "manim",
-      description:
-        "Used 3Blue1Brown's Python Manim Library to animate mathematical concepts instead of doing actual linear algebra homework.",
-      languages: [],
-    },
+    // {
+    //   id: "7",
+    //   name: "Manim Projects (wip)",
+    //   details: "manim",
+    //   description:
+    //     "Used 3Blue1Brown's Python Manim Library to animate mathematical concepts instead of doing actual linear algebra homework.",
+    //   languages: [],
+    // },
     {
       id: "8",
       name: "Rasterization Engine (wip)",

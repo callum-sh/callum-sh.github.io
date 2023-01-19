@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../../components/header/Header";
-import Footer from "../../../components/footer/Footer";
 
 import "../Projects.css";
 import { style } from "glamor";
@@ -15,7 +14,6 @@ function Scansonic(props) {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
-  // /Users/callum/Documents/coding/react-portfolio/src/assests/images/scansonic1.png
 
   return (
     <>
@@ -39,9 +37,9 @@ function Scansonic(props) {
                 manufacturing processes. While there, I worked with the Sceye
                 team, which focuses on the visual processing systems of welding
                 robots. My responsibilities included assisting with the training
-                of a deep learning model to accurately detect weld defects in
-                manufacturing environments. (timestamp 2:00 onwards in the
-                following video)
+                of a deep learning model to accurately{" "}
+                <b>detect weld defects in manufacturing environments.</b>{" "}
+                (timestamp 2:00 onwards in the following video)
               </p>
 
               <iframe
@@ -73,8 +71,10 @@ function Scansonic(props) {
                   tag training data (Python, TKinter)
                 </li>
                 <li>
-                  Integrated an internal C/C++ library to significantly increase
-                  the speed of data loading times
+                  Integrated an internal C/C++ library to{" "}
+                  <b>
+                    increase the speed of data loading times by a factor of 20
+                  </b>
                 </li>
                 <li>
                   Implemented an automated test suite for the inference software
@@ -82,7 +82,8 @@ function Scansonic(props) {
                 </li>
                 <li>
                   Researched and integrated automated coverage analysis for the
-                  inference software (Python, coverage, Linux, bash)
+                  inference software (Python, coverage, Linux, bash) with{" "}
+                  <b>+80% coverage</b>
                 </li>
                 <li>
                   Participated in agile software development teams using the
@@ -103,7 +104,6 @@ function Scansonic(props) {
           </div>
         </div>
       </div>
-      <Footer theme={props.theme} onToggle={props.onToggle} />
     </>
   );
 }

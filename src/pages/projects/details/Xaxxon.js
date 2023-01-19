@@ -73,6 +73,13 @@ function Xaxxon(props) {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
+                <p
+                  className="projects-header-detail-text subTitle"
+                  align="left"
+                  style={{ color: theme.secondaryText }}
+                >
+                  <br></br> See more software below...
+                </p>
               </div>
               <h3> Software </h3>
 
@@ -81,7 +88,16 @@ function Xaxxon(props) {
                 align="left"
                 style={{ color: theme.secondaryText }}
               >
-                wip...
+                The next project I worked on was testing integration between
+                different AI image processing libraries, namely PyTorch and
+                Tensorflow on the Autocrawler Robot. I was able to test the
+                performance of both libraries on the x86-64 mini-ITX PC with the
+                Intel RealSense D415 Camera module.
+                <br></br>
+                <br></br>
+                Through testing, I established that on our architecture, and at
+                the time of testing, PyTorch was able to process images at a
+                faster rate than Tensorflow (example of PyTorch below).
               </p>
 
               <img
@@ -90,6 +106,10 @@ function Xaxxon(props) {
                 className="pytorch"
                 width="60%"
               />
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
 
               <p
                 className="projects-header-detail-text subTitle"
