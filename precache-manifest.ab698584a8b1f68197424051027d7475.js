@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/static/media/GoogleSans-Bold.4457817a.ttf"
   },
   {
-    "revision": "21f233e19402cc4a66866a7f31191f0d",
-    "url": "/static/media/Agustina.21f233e1.woff"
-  },
-  {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "21f233e19402cc4a66866a7f31191f0d",
+    "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
     "revision": "90773b6158663ab0fe78b32680733677",
@@ -80,16 +80,16 @@ self.__precacheManifest = [
     "url": "/static/media/GoogleSans-Medium.8d57e401.ttf"
   },
   {
-    "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
-    "url": "/static/media/GoogleSans-Italic.0ecddcde.ttf"
+    "revision": "b5c77a6aed75cdad9489effd0d5ea411",
+    "url": "/static/media/GoogleSans-Regular.b5c77a6a.ttf"
   },
   {
     "revision": "8fd3737925e83c87d78a13700ccf9a62",
     "url": "/static/media/GoogleSans-MediumItalic.8fd37379.ttf"
   },
   {
-    "revision": "b5c77a6aed75cdad9489effd0d5ea411",
-    "url": "/static/media/GoogleSans-Regular.b5c77a6a.ttf"
+    "revision": "0ecddcdeccb7761ce899aa9ad9f0ac3f",
+    "url": "/static/media/GoogleSans-Italic.0ecddcde.ttf"
   },
   {
     "revision": "b03a97804fdfcdcab74d915270fa3c5d",
@@ -272,12 +272,12 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.c5e0f14f.woff"
   },
   {
-    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
-    "url": "/static/media/fa-regular-400.c1a866ec.eot"
-  },
-  {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
     "url": "/static/media/fa-brands-400.06147b6c.ttf"
+  },
+  {
+    "revision": "c1a866ec0e04a5e1915b41fcf261457c",
+    "url": "/static/media/fa-regular-400.c1a866ec.eot"
   },
   {
     "revision": "f5f2566b93e89391da4db79462b8078b",
@@ -292,20 +292,20 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.65b286af.ttf"
   },
   {
-    "revision": "7b9568e6389b1f8ae0902cd39665fc1e",
-    "url": "/static/media/fa-regular-400.7b9568e6.svg"
-  },
-  {
     "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
     "url": "/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "333bae208dc363746961b234ff6c2500",
-    "url": "/static/media/fa-solid-900.333bae20.woff"
-  },
-  {
     "revision": "44d537ab79f921fde5a28b2c1636f397",
     "url": "/static/media/fa-solid-900.44d537ab.woff2"
+  },
+  {
+    "revision": "7b9568e6389b1f8ae0902cd39665fc1e",
+    "url": "/static/media/fa-regular-400.7b9568e6.svg"
+  },
+  {
+    "revision": "333bae208dc363746961b234ff6c2500",
+    "url": "/static/media/fa-solid-900.333bae20.woff"
   },
   {
     "revision": "0bff33a5fd7ec390235476b4859747a0",
