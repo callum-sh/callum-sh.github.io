@@ -81,16 +81,7 @@ function Xaxxon(props) {
                 align="left"
                 style={{ color: theme.secondaryText }}
               >
-                During the summer of 2022, I had the opportunity to intern at{" "}
-                <a href="https://www.scansonic.de/en/">Scansonic</a>, a company
-                within the Berlin Industrial Group that develops laser
-                processing and sensor systems for automated joining in modern
-                manufacturing processes. While there, I worked with the Sceye
-                team, which focuses on the visual processing systems of welding
-                robots. My responsibilities included assisting with the training
-                of a deep learning model to accurately detect weld defects in
-                manufacturing environments. (timestamp 2:00 onwards in the
-                following video)
+                wip...
               </p>
 
               <img
